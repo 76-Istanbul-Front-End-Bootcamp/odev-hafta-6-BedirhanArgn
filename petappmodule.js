@@ -16,7 +16,7 @@ const addPet = (pet) => {
     <button type="button" class="btn btn-primary" onclick="openPetDetail(${pet.id})">Detay</button>
     <button type="button" class="btn btn-danger"  onclick="removePet(${pet.id})">Sil</button>
   </div>
-                </div>
+  </div>
 `;
     document.querySelector("#petsHolder").innerHTML += petCardHTML;
 };
